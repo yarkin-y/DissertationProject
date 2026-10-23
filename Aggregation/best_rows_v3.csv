@@ -1,0 +1,9 @@
+Target,Model,MAE,R2,Feature Types,Important Features
+shots,Random Forest,3.683739766081871,0.28442582158123464,Full,All
+xG,Neural Network,0.611418849519503,0.24618343075874086,Full,"['Seasonal_Elo', 'ClubELO', 'Overall', 'Reactions_adj', 'xGChain_median']"
+yellow_card,Neural Network,1.0163942098617553,-0.010938894748687745,Full,"['Seasonal_Elo', 'Reactions_adj', 'Finishing_adj', 'GK Handling_adj', 'Short Pass_adj', 'Balance_adj', 'ClubELO']"
+red_card,Neural Network,0.11061992198228836,-0.03620071411132812,Full,All
+key_passes,Random Forest,3.0067619883040937,0.2743987397874696,Full,All
+xA,Neural Network,0.47428603573849326,0.2180849784050813,Full,"['Seasonal_Elo', 'ClubELO', 'Overall', 'xGChain_median', 'Reactions_adj', 'Overall Passing_adj']"
+xGChain,Neural Network,2.0610427582773725,0.26999142993982045,Full,"['ClubELO', 'Seasonal_Elo', 'xGChain_median', 'Overall', 'Reactions_adj']"
+xGBuildup,Neural Network,1.438284027663942,0.2435947219995004,Full,"['ClubELO', 'Seasonal_Elo', 'xGBuildup_median', 'Overall', 'xGChain_median', 'Reactions_adj', 'Overall Passing_adj']"
